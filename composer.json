@@ -1,0 +1,27 @@
+{
+    "name": "karan/demo",
+    "authors": [
+        {
+            "name": "karanpatil1604",
+            "email": "karanpatil1604@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/collections": "^10.14",
+        "symfony/var-dumper": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "Http\\": "Http/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.8"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
